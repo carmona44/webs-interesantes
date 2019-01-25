@@ -1,0 +1,71 @@
+{
+  "educacion": [
+    {"id": 1, "nombre": "tutorialspoint", "url": "http://www.tutorialspoint.com/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 2, "nombre": "formacarm", "url": "https://www.formacarm.es/portal/", "icono": "", "descripcion": "", "idioma": "ES"},
+    {"id": 8, "nombre": "europass", "url": "https://europass.cedefop.europa.eu/es", "icono": "", "descripcion": "", "idioma": "ES"},
+    {"id": 11, "nombre": "linux from scratch", "url": "http://www.linuxfromscratch.org/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 13, "nombre": "pluralsight", "url": "https://www.pluralsight.com/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 14, "nombre": "freeCodeCamp", "url": "https://www.freecodecamp.org/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 15, "nombre": "codecademy", "url": "https://www.codecademy.com/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 19, "nombre": "Google Actívate", "url": "https://www.google.es/landing/activate/home/", "icono": "", "descripcion": "", "idioma": "ES"},
+    {"id": 20, "nombre": "Class central", "url": "https://www.class-central.com/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 24, "nombre": "Nestor Braidot", "url": "https://braidot.com/", "icono": "", "descripcion": "", "idioma": "ES"},
+    {"id": 32, "nombre": "courseroot", "url": "https://courseroot.com/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 38, "nombre": "CISCO", "url": "https://www.netacad.com/es", "icono": "", "descripcion": "", "idioma": "ES"},
+    {"id": 41, "nombre": "Tutoriales en pdf", "url": "http://tutorialesenpdf.com/", "icono": "", "descripcion": "", "idioma": "ES"},
+    {"id": 42, "nombre": "Khan Academy", "url": "https://es.khanacademy.org/", "icono": "", "descripcion": "", "idioma": "ES"},
+    {"id": 46, "nombre": "Dive into deep learning", "url": "http://d2l.ai/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 47, "nombre": "80000 hours", "url": "https://80000hours.org/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 49, "nombre": "hackr.io", "url": "https://hackr.io/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 54, "nombre": "hack yourself first", "url": "https://hack-yourself-first.com/", "icono": "", "descripcion": "", "idioma": "EN"}
+  ],
+  "informatica": [
+    {"id": 3, "nombre": "Piskel", "url": "https://www.piskelapp.com/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 4, "nombre": "elhacker", "url": "https://www.elhacker.net/", "icono": "", "descripcion": "", "idioma": "ES"},
+    {"id": 5, "nombre": "CodePen", "url": "https://codepen.io/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 6, "nombre": "pixabay", "url": "https://pixabay.com/", "icono": "", "descripcion": "", "idioma": "ES"},
+    {"id": 7, "nombre": "virustotal", "url": "https://www.virustotal.com/es/", "icono": "", "descripcion": "", "idioma": "ES"},
+    {"id": 9, "nombre": "iconspedia", "url": "https://www.iconspedia.com/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 12, "nombre": "Hacker News", "url": "https://news.ycombinator.com/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 17, "nombre": "CodinGame", "url": "https://www.codingame.com/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 18, "nombre": "bigml", "url": "https://bigml.com/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 22, "nombre": "Sejda", "url": "https://www.sejda.com/es", "icono": "", "descripcion": "", "idioma": "ES"},
+    {"id": 27, "nombre": "Ciberseguridad", "url": "https://ciberseguridad.blog/", "icono": "", "descripcion": "", "idioma": "ES"},
+    {"id": 28, "nombre": "bestofjs", "url": "https://bestofjs.org/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 29, "nombre": "Hetzner", "url": "https://www.hetzner.com/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 36, "nombre": "Tiobe", "url": "https://www.tiobe.com/tiobe-index/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 37, "nombre": "egghead", "url": "https://egghead.io/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 40, "nombre": "Cults.", "url": "https://cults3d.com/es", "icono": "", "descripcion": "", "idioma": "ES"},
+    {"id": 43, "nombre": "web.dev", "url": "https://web.dev/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 44, "nombre": "regex101", "url": "https://regex101.com/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 45, "nombre": "Kaggle", "url": "https://www.kaggle.com/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 53, "nombre": "ahrefsblog", "url": "https://ahrefs.com/blog/google-advanced-search-operators/", "icono": "", "descripcion": "", "idioma": "EN"}
+  ],
+  "ciencia": [
+    {"id": 31, "nombre": "Root", "url": "https://root.cern.ch/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 34, "nombre": "FamiLinx", "url": "http://familinx.org/index.html", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 35, "nombre": "DNA Land", "url": "https://dna.land/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 38, "nombre": "LED Center", "url": "http://led.linear1.org/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 52, "nombre": "Open source radio telescopes", "url": "http://opensourceradiotelescopes.org/", "icono": "", "descripcion": "", "idioma": "EN"}
+  ],
+  "compras": [
+    {"id": 21, "nombre": "idealo", "url": "https://www.idealo.es/", "icono": "", "descripcion": "", "idioma": "ES"},
+    {"id": 23, "nombre": "Chollometro", "url": "https://www.chollometro.com/", "icono": "", "descripcion": "", "idioma": "ES"}
+  ],
+  "deportes": [
+    {"id": 10, "nombre": "pcs", "url": "https://www.procyclingstats.com/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 33, "nombre": "Toolbox from Strava", "url": "https://www.marcellobrivio.com/projects/strava-toolbox/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 39, "nombre": "Football club Elo", "url": "http://clubelo.com/", "icono": "", "descripcion": "", "idioma": "EN"}
+  ],
+  "entretenimiento": [
+    {"id": 16, "nombre": "lmgtfy", "url": "http://es.lmgtfy.com/", "icono": "", "descripcion": "", "idioma": "ES"},
+    {"id": 25, "nombre": "Classic reload", "url": "https://classicreload.com/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 26, "nombre": "MuySencillo", "url": "https://www.muysencillo.com/", "icono": "", "descripcion": "", "idioma": "ES"},
+    {"id": 48, "nombre": "Gemioli", "url": "https://gemioli.com/", "icono": "", "descripcion": "", "idioma": "EN"},
+    {"id": 50, "nombre": "Meetup", "url": "https://www.meetup.com/es-ES/", "icono": "", "descripcion": "", "idioma": "ES"},
+    {"id": 51, "nombre": "archive", "url": "https://archive.org/", "icono": "", "descripcion": "", "idioma": "EN"}
+  ],
+  "economia": [
+    {"id": 30, "nombre": "Novatos trading club", "url": "https://www.novatostradingclub.com/", "icono": "", "descripcion": "", "idioma": "ES"}
+  ]
+}
