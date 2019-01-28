@@ -1,0 +1,32 @@
+.evita-menu{
+    margin-top: 70px;
+}
+
+.idiomaES{
+  margin-left: 10px;
+    color: limegreen;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.idiomaEN{
+    margin-left: 10px;
+    color: darkred;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.espacio{
+    margin-bottom: 5px;
+}
+
+.detalles{
+    color: white;
+    background-color: gray;
+}
+
+a{
+    color: white;
+}

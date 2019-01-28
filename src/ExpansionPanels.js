@@ -5,7 +5,7 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import DATA from './webs.json';
-import './App.css';
+import './ExpansionPanel.css';
 
 const EDUCACION = DATA.educacion;
 const INFORMATICA = DATA.informatica;
@@ -30,15 +30,15 @@ class ControlledExpansionPanels extends React.Component {
         const { expanded } = this.state;
 
         return (
-            <div>
+            <div className="evita-menu">
                 {EDUCACION.map(e =>
 
-                <ExpansionPanel key={e.id} expanded={expanded === 'panel'+e.id} onChange={this.handleChange('panel'+e.id)}>
+                <ExpansionPanel className="espacio" key={e.id} expanded={expanded === 'panel'+e.id} onChange={this.handleChange('panel'+e.id)}>
                     <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                         <Typography>{e.nombre}</Typography>
-                        <Typography className="idioma">{e.idioma}</Typography>
+                        <Typography><span className={e.idioma === 'ES' ? "idiomaES" : "idiomaEN"}>{e.idioma}</span></Typography>
                     </ExpansionPanelSummary>
-                    <ExpansionPanelDetails>
+                    <ExpansionPanelDetails className="detalles">
                         <Typography>
                             {e.descripcion}
                         </Typography>
