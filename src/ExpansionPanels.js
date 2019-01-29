@@ -7,18 +7,14 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import DATA from './webs.json';
 import './ExpansionPanel.css';
 
-const EDUCACION = DATA.educacion;
-const INFORMATICA = DATA.informatica;
-const CIENCIA = DATA.ciencia;
-const COMPRAS = DATA.compras;
-const DEPORTES = DATA.deportes;
-const ENTRETENIMIENTO = DATA.entretenimiento;
-const ECONOMIA = DATA.economia;
-
 class ControlledExpansionPanels extends React.Component {
-    state = {
-        expanded: null,
-    };
+    constructor(props){
+        super(props);
+        this.state = {
+            expanded: null,
+            tipo: props.tipo
+        }
+    }
 
     handleChange = panel => (event, expanded) => {
         this.setState({
@@ -31,7 +27,8 @@ class ControlledExpansionPanels extends React.Component {
 
         return (
             <div className="evita-menu">
-                {EDUCACION.map(e =>
+                <h4 className="titulo-tipo">{this.state.tipo.toUpperCase()}</h4>
+                {DATA[this.state.tipo].map(e =>
 
                 <ExpansionPanel className="espacio" key={e.id} expanded={expanded === 'panel'+e.id} onChange={this.handleChange('panel'+e.id)}>
                     <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
