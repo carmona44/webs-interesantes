@@ -5,15 +5,32 @@ import SearchAppBar from './AppBar';
 import DATA from './webs.json';
 
 class App extends Component {
-  render() {
-    var i = -1;
+  constructor(props){
+      super(props);
+      this.state = {
+          webs: DATA.webs,
+          busqueda: []
+      };
 
+      this.filtrarBusqueda = this.filtrarBusqueda.bind(this);
+  }
+
+  filtrarBusqueda(event){
+      const regex = new RegExp(event.target.value, 'gi');
+      const newWebs = this.state.webs.filter(web => {
+          return web.nombre.match(regex);
+      });
+
+      this.setState({
+         busqueda: newWebs
+      });
+  }
+
+  render() {
     return (
       <div>
-        <SearchAppBar />
-        {
-          Object.keys(DATA).map(e => <ControlledExpansionPanels key={i += 1} tipo={e}/>)
-        }
+        <SearchAppBar onchange={this.filtrarBusqueda}/>
+        <ControlledExpansionPanels webs={this.state.busqueda.length > 0 ? this.state.busqueda : this.state.webs}/>
         <footer className="pie-pagina">"Made on Earth by Human."</footer>
       </div>
     );

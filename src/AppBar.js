@@ -66,6 +66,7 @@ const styles = theme => ({
 
 function SearchAppBar(props) {
     const { classes } = props;
+
     return (
         <div className={classes.root}>
             <AppBar>
@@ -84,6 +85,7 @@ function SearchAppBar(props) {
                                 root: classes.inputRoot,
                                 input: classes.inputInput,
                             }}
+                            onChange={props.onchange}
                         />
                     </div>
                 </Toolbar>
