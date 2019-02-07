@@ -45,8 +45,7 @@ class ControlledExpansionPanels extends React.Component {
                                     <ExpansionPanelDetails className="detalles">
                                         <Typography>
                                             {e.descripcion}
-                                        </Typography>
-                                        <Typography>
+                                            <br/><br/>
                                             <a href={e.url}>{e.url}</a>
                                         </Typography>
                                     </ExpansionPanelDetails>
