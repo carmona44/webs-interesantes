@@ -4,6 +4,7 @@ import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import Avatar from '@material-ui/core/Avatar';
 import './ExpansionPanel.css';
 
 class ControlledExpansionPanels extends React.Component {
@@ -39,8 +40,12 @@ class ControlledExpansionPanels extends React.Component {
 
                                 <ExpansionPanel className="espacio" key={e.id} expanded={expanded === 'panel'+e.id} onChange={this.handleChange('panel'+e.id)}>
                                     <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                                        <Typography>{e.nombre}</Typography>
-                                        <Typography><span className={e.idioma === 'ES' ? "idiomaES" : "idiomaEN"}>{e.idioma}</span></Typography>
+                                         {/* Ñapa sana */}
+                                        <div style ={{display: "flex" , alignItems: "center"}}>
+                                            <Avatar style={{width: e.icono.size, height: e.icono.size, borderRadius: 0, marginRight: "10px"}} src={e.icono.url}></Avatar>
+                                            <Typography>{e.nombre}</Typography>
+                                            <Typography><span className={e.idioma === 'ES' ? "idiomaES" : "idiomaEN"}>{e.idioma}</span></Typography>
+                                        </div>
                                     </ExpansionPanelSummary>
                                     <ExpansionPanelDetails className="detalles">
                                         <Typography>
