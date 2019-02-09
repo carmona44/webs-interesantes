@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import './App.css';
 import ControlledExpansionPanels from './ExpansionPanels';
 import SearchAppBar from './AppBar';
-import DATA from './webs.json';
+
 
 class App extends Component {
   constructor(props){
       super(props);
       this.state = {
-          webs: DATA.webs,
+          webs: null,
+          fetching: true,
           busqueda: []
       };
 
