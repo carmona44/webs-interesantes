@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import './App.css';
 import ControlledExpansionPanels from './ExpansionPanels';
 import SearchAppBar from './AppBar';
-import CircularProgress from '@material-ui/core/CircularProgress';
+import LinearProgress from '@material-ui/core/LinearProgress';
 
 
 class App extends Component {
   constructor(props){
       super(props);
       this.state = {
-          webs: null,
+          webs: [],
           isFetching: true,
           busqueda: []
       };
@@ -25,7 +25,7 @@ class App extends Component {
 
   apiFetchWebs = async () => await fetch('https://salvadorzapatacas.github.io/webs-interesantes/db.json')
                                   .then(response => response.json())
-                                  .then(webs => this.setState({webs}));
+                                  .then(webs => this.setState({webs : webs.webs}));
 
   
 
@@ -45,19 +45,17 @@ class App extends Component {
     const { isFetching, webs} = this.state;
     let body;
 
-    if (webs && !isFetching) {
-      
+    if (webs.length !== 0 && !isFetching) {
       body = <ControlledExpansionPanels webs={this.state.busqueda.length > 0 ? this.state.busqueda : this.state.webs}/>
     } else {
-      console.log('WEBS' , this.state.webs);
-      body = <CircularProgress />;
+      // TODO
+      body = <LinearProgress/>
     }
 
     return (
       <div>
         <SearchAppBar onchange={this.filtrarBusqueda}/>
         { body } 
-        {/* <ControlledExpansionPanels webs={this.state.busqueda.length > 0 ? this.state.busqueda : this.state.webs}/> */}
         <footer className="pie-pagina">"Made on Earth by Human."</footer>
       </div>
     );
