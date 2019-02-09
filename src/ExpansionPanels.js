@@ -24,11 +24,12 @@ class ControlledExpansionPanels extends React.Component {
 
     render() {
         const { expanded } = this.state;
-        const webs = this.props.webs;
-
+        const { webs } = this.props;
         return (
             <div className="evita-menu">
+            
                 {
+                    
                     webs.map( (e, index) =>
                         <div key={index}>
                             {
