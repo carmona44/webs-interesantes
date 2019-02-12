@@ -19,15 +19,11 @@ class App extends Component {
 
 
   componentWillMount(){
-    this.apiFetchWebs();
-    this.setState({ isFetching: false });
+    fetch('https://gist.githubusercontent.com/carmona44/7265da7c5a2e0e53e8e8557f22e1e870/raw/83cf11296dca92e3cd61b0dfdc3baaaca80329f1/webs.json')
+        .then(response => response.json())
+        .then(webs => this.setState({webs : webs.webs}))
+        .then(() => this.setState({ isFetching: false }));
   }
-
-  apiFetchWebs = async () => await fetch('https://carmona44.github.io/webs-interesantes/db.json')
-                                  .then(response => response.json())
-                                  .then(webs => this.setState({webs : webs.webs}));
-
-  
 
   filtrarBusqueda(event){
       const regex = new RegExp(event.target.value, 'gi');
