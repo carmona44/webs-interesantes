@@ -23,7 +23,7 @@ class App extends Component {
     this.setState({ isFetching: false });
   }
 
-  apiFetchWebs = async () => await fetch('https://carmona44.github.io/webs-interesantes/webs.json')
+  apiFetchWebs = async () => await fetch('https://carmona44.github.io/webs-interesantes/db.json')
                                   .then(response => response.json())
                                   .then(webs => this.setState({webs : webs.webs}));
 
