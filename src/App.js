@@ -52,7 +52,7 @@ class App extends Component {
       <div>
         <SearchAppBar onchange={this.filtrarBusqueda}/>
         { body } 
-        <footer className="pie-pagina">"Made on Earth by Human."</footer>
+        <footer className="pie-pagina">Made on Earth by Human.</footer>
       </div>
     );
   }
