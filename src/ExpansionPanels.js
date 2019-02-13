@@ -42,10 +42,10 @@ class ControlledExpansionPanels extends React.Component {
                                 <ExpansionPanel className="espacio" key={e.id} expanded={expanded === 'panel'+e.id} onChange={this.handleChange('panel'+e.id)}>
                                     <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                                          {/* Ñapa sana */}
-                                        <div style ={{display: "flex" , alignItems: "center"}}>
-                                            <Avatar style={{width: e.icono.size, height: e.icono.size, borderRadius: 0, marginRight: "10px"}} src={e.icono.url}></Avatar>
+                                        <div style ={{display: "inline-flex" , alignItems: "center", width: "100%"}}>
+                                            <Avatar style={{width: 32, height: 32, borderRadius: 10, marginRight: "10px"}} src={e.icono.url}></Avatar>
                                             <Typography>{e.nombre}</Typography>
-                                            <Typography><span className={e.idioma === 'ES' ? "idiomaES" : "idiomaEN"}>{e.idioma}</span></Typography>
+                                            <span className={e.idioma === 'ES' ? "idiomaES" : "idiomaEN"}>{e.idioma}</span>
                                         </div>
                                     </ExpansionPanelSummary>
                                     <ExpansionPanelDetails className="detalles">

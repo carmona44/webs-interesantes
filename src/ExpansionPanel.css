@@ -5,17 +5,21 @@
 .idiomaES{
   margin-left: 10px;
     color: limegreen;
-    text-align: center;
     font-weight: bold;
-    text-decoration: underline;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    flex: auto;
+    text-align: right;
 }
 
 .idiomaEN{
     margin-left: 10px;
     color: darkred;
-    text-align: center;
     font-weight: bold;
-    text-decoration: underline;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    flex: auto;
+    text-align: right;
 }
 
 .espacio{
