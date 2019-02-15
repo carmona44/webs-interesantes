@@ -2,15 +2,19 @@
   "name": "webs-interesantes",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://carmona44.github.io/webs-interesantes",
   "dependencies": {
     "@material-ui/core": "^3.9.0",
     "@material-ui/icons": "^3.0.2",
     "eslint-plugin-react-hooks": "0.0.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

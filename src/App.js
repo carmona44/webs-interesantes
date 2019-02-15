@@ -19,15 +19,11 @@ class App extends Component {
 
 
   componentWillMount(){
-    this.apiFetchWebs();
-    this.setState({ isFetching: false });
+    fetch('https://gist.githubusercontent.com/carmona44/7265da7c5a2e0e53e8e8557f22e1e870/raw/2afd060540b5e14ef43ce37c8659ecb3505aed7b/webs.json')
+        .then(response => response.json())
+        .then(webs => this.setState({webs : webs.webs}))
+        .then(() => this.setState({ isFetching: false }));
   }
-
-  apiFetchWebs = async () => await fetch('https://carmona44.github.io/webs-interesantes/db.json')
-                                  .then(response => response.json())
-                                  .then(webs => this.setState({webs : webs.webs}));
-
-  
 
   filtrarBusqueda(event){
       const regex = new RegExp(event.target.value, 'gi');
@@ -56,7 +52,7 @@ class App extends Component {
       <div>
         <SearchAppBar onchange={this.filtrarBusqueda}/>
         { body } 
-        <footer className="pie-pagina">"Made on Earth by Human."</footer>
+        <footer className="pie-pagina">Made on Earth by Human.</footer>
       </div>
     );
   }
