@@ -6,25 +6,33 @@ import SearchAppBar from './AppBar';
 import LinearProgress from '@material-ui/core/LinearProgress';
 import * as actions from "./actions";
 import { bindActionCreators } from "redux";
+import { getWebsFilter } from "./selectors/";
 
 
 class App extends Component {
   
 
+  constructor(props){
+    super(props);
+    /* this.filtrarBusqueda = this.filtrarBusqueda.bind(this); */
+  }
 
   componentWillMount(){
     this.props.fetchWebs();
   }
 
  /*  filtrarBusqueda(event){
-      const regex = new RegExp(event.target.value, 'gi');
-      const newWebs = this.state.webs.filter(web => {
-          return web.nombre.match(regex);
-      });
+    
+    const { webs } = this.props;
+  
+    const regex = new RegExp(event.target.value, 'gi');
+    const newWebs = webs.filter(web => {
+        return web.nombre.match(regex);
+    });
 
-      this.setState({
-         busqueda: newWebs
-      });
+    this.setState({
+        search: newWebs
+    });
   } */
 
   render() {
@@ -40,7 +48,7 @@ class App extends Component {
 
     return (
       <div>
-        <SearchAppBar onchange={this.filtrarBusqueda}/>
+        <SearchAppBar onchange={this.props.setSearch}/>
         { body } 
         <footer className="pie-pagina">Made on Earth by Human.</footer>
       </div>
@@ -50,9 +58,9 @@ class App extends Component {
 
 
 const mapStateToProps = state => ({
+  busqueda: getWebsFilter(state),
   webs: state.webs.webs,
   isFetching: state.global.isFetching,
-  busqueda: state.global.search
 });
 
 const mapDispatchToPropsActions = dispatch => 

@@ -7,6 +7,7 @@ const API_URL =
 
 export const setIsFetchingState = () => ({ type: SET_FETCHING_STATE });
 export const setWebsData = (webs) => ({type: SET_WEBS_DATA, webs})
+export const setSearch = (e) => ({type: SET_SEARCH, payload: e.target.value})
 
 export const fetchWebs = () => {
     return dispatch => {

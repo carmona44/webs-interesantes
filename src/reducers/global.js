@@ -10,7 +10,7 @@ import {
         return { ...state, isFetching : !state.isFetching };
       }
       case SET_SEARCH: {
-        return {...state, state : 'lel' }
+        return {...state , search: action.payload}
       }
 
       
