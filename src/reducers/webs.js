@@ -6,7 +6,7 @@ import {
 export const webs = (state = {}, action) => {
   switch (action.type) {
     case SET_WEBS_DATA: {
-      return [ ...state, action.payload ];
+      return { ...state, webs: action.webs.webs.webs };
     }
     default:
       return state;

@@ -3,9 +3,10 @@ import thunk from 'redux-thunk';
 import  reducers from './../reducers';
 
 const initialState = {
-    webs: [],
+    webs: {},
     global: {
-        isFetching: false
+        isFetching: false,
+        search: ''
     }
 };
 

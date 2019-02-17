@@ -1,31 +1,22 @@
 import React, { Component } from 'react';
+import { connect } from "react-redux";
 import './App.css';
 import ControlledExpansionPanels from './ExpansionPanels';
 import SearchAppBar from './AppBar';
 import LinearProgress from '@material-ui/core/LinearProgress';
+import * as actions from "./actions";
+import { bindActionCreators } from "redux";
 
 
 class App extends Component {
-  constructor(props){
-      super(props);
-      this.state = {
-          webs: [],
-          isFetching: true,
-          busqueda: []
-      };
-
-      this.filtrarBusqueda = this.filtrarBusqueda.bind(this);
-  }
+  
 
 
   componentWillMount(){
-    fetch('https://gist.githubusercontent.com/carmona44/7265da7c5a2e0e53e8e8557f22e1e870/raw/2afd060540b5e14ef43ce37c8659ecb3505aed7b/webs.json')
-        .then(response => response.json())
-        .then(webs => this.setState({webs : webs.webs}))
-        .then(() => this.setState({ isFetching: false }));
+    this.props.fetchWebs();
   }
 
-  filtrarBusqueda(event){
+ /*  filtrarBusqueda(event){
       const regex = new RegExp(event.target.value, 'gi');
       const newWebs = this.state.webs.filter(web => {
           return web.nombre.match(regex);
@@ -34,15 +25,14 @@ class App extends Component {
       this.setState({
          busqueda: newWebs
       });
-  }
+  } */
 
   render() {
-
-    const { isFetching, webs} = this.state;
+    const { isFetching, webs, busqueda} = this.props;
     let body;
 
-    if (webs.length !== 0 && !isFetching) {
-      body = <ControlledExpansionPanels webs={this.state.busqueda.length > 0 ? this.state.busqueda : this.state.webs}/>
+    if (webs && webs !== 0 && !isFetching) {
+      body = <ControlledExpansionPanels webs={busqueda.length > 0 ? busqueda : webs}/>
     } else {
       // TODO
       body = <LinearProgress/>
@@ -58,4 +48,16 @@ class App extends Component {
   }
 }
 
-export default App;
+
+const mapStateToProps = state => ({
+  webs: state.webs.webs,
+  isFetching: state.global.isFetching,
+  busqueda: state.global.search
+});
+
+const mapDispatchToPropsActions = dispatch => 
+  bindActionCreators(actions, dispatch);
+
+
+
+export default connect(mapStateToProps, mapDispatchToPropsActions)(App);
