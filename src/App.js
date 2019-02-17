@@ -11,29 +11,11 @@ import { getWebsFilter } from "./selectors/";
 
 class App extends Component {
   
-
-  constructor(props){
-    super(props);
-    /* this.filtrarBusqueda = this.filtrarBusqueda.bind(this); */
-  }
-
   componentWillMount(){
     this.props.fetchWebs();
   }
 
- /*  filtrarBusqueda(event){
-    
-    const { webs } = this.props;
-  
-    const regex = new RegExp(event.target.value, 'gi');
-    const newWebs = webs.filter(web => {
-        return web.nombre.match(regex);
-    });
 
-    this.setState({
-        search: newWebs
-    });
-  } */
 
   render() {
     const { isFetching, webs, busqueda} = this.props;

@@ -18,6 +18,6 @@ export const fetchWebs = () => {
             .then(webs => {
                 dispatch(setWebsData({ webs }));
             })
-            .then( () => dispatch(setIsFetchingState()));
+            .then(() => dispatch(setIsFetchingState()));
     };
 };
