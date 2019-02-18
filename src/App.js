@@ -18,11 +18,11 @@ class App extends Component {
 
 
   render() {
-    const { isFetching, webs, busqueda} = this.props;
+    const { isFetching, webs, busqueda, searchWord} = this.props;
     let body;
 
     if (webs && webs !== 0 && !isFetching) {
-      body = <ControlledExpansionPanels webs={busqueda.length > 0 ? busqueda : webs}/>
+      body = <ControlledExpansionPanels webs={busqueda.length > 0 ? busqueda : webs} searchWord={searchWord ? searchWord : false} websLength={webs.length}/>
     } else {
       // TODO
       body = <LinearProgress/>
@@ -43,6 +43,7 @@ const mapStateToProps = state => ({
   busqueda: getWebsFilter(state),
   webs: state.webs.webs,
   isFetching: state.global.isFetching,
+  searchWord: state.global.search
 });
 
 const mapDispatchToPropsActions = dispatch => 

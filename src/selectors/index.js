@@ -1,7 +1,7 @@
 import { createSelector } from 'reselect'
 
-const getWebs = (state) => state.webs.webs
-const getSearchWord = (state) => state.global.search
+const getWebs = (state) => state.webs.webs;
+const getSearchWord = (state) => state.global.search;
 
 // TODO - BUG, Cuando se busca por algo que no esta devuelve todo
 export const getWebsFilter = createSelector(
@@ -24,4 +24,4 @@ export const getWebsFilter = createSelector(
 
     
   }
-)
+);

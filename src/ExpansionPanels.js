@@ -5,14 +5,24 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Avatar from '@material-ui/core/Avatar';
+import Snackbar from '@material-ui/core/Snackbar';
+import ErrorIcon from '@material-ui/icons/Error';
+import { withStyles } from '@material-ui/core/styles';
 import './ExpansionPanel.css';
+
+const styles = {
+    root: {
+        backgroundColor: '#d32f2f'
+    }
+};
 
 class ControlledExpansionPanels extends React.Component {
     constructor(props){
         super(props);
         this.state = {
             expanded: null,
-            seccionPrev: ''
+            seccionPrev: '',
+            open: false
         }
     }
 
@@ -22,9 +32,38 @@ class ControlledExpansionPanels extends React.Component {
         });
     };
 
+    handleRequestClose = () => {
+        this.setState({
+            open: false,
+        });
+    };
+
     render() {
         const { expanded } = this.state;
-        const { webs } = this.props;
+        const { webs, searchWord, websLength, classes } = this.props;
+
+        let errorMessage;
+
+        if (searchWord && webs.length === websLength){
+            errorMessage = <Snackbar
+                ContentProps={{
+                    classes: {
+                        root: classes.root
+                    }
+                }}
+                anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+                open={!this.state.open}
+                autoHideDuration={3000}
+                message={
+                    <span id="message-id" style={{display: 'flex', alignItems: 'center'}}>
+                        <ErrorIcon/>
+                        No se ha encontrado la web: {searchWord.toUpperCase()}
+                    </span>
+                }
+                onRequestClose={this.handleRequestClose}
+            />;
+        }
+
         return (
             <div className="evita-menu">
             
@@ -59,9 +98,13 @@ class ControlledExpansionPanels extends React.Component {
                         </div>
                     )
                 }
+
+                {
+                    errorMessage
+                }
             </div>
         );
     }
 }
 
-export default ControlledExpansionPanels;
+export default withStyles(styles)(ControlledExpansionPanels);
