@@ -32,7 +32,16 @@
 }
 
 a{
-    color: rgb(0,188,241);
+    text-decoration: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, #0080ff, #29FF00);
+    padding: 10px;
+    color: white;
+}
+
+a:hover{
+    background-image: linear-gradient(to bottom right, #0017FF, #25B902);
+    box-shadow: 3px 3px green;
 }
 
 .titulo-tipo{

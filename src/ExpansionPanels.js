@@ -91,7 +91,7 @@ class ControlledExpansionPanels extends React.Component {
                                         <Typography>
                                             {e.descripcion}
                                             <br/><br/>
-                                            <a href={e.url}>{e.url}</a>
+                                            <a href={e.url} target="_blank"><i class="far fa-arrow-alt-circle-right"></i> Ir a {e.nombre}</a>
                                         </Typography>
                                     </ExpansionPanelDetails>
                                 </ExpansionPanel>
