@@ -1,68 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# WEBS INTERESANTES
+![GitHub search hit counter](https://img.shields.io/github/search/carmona44/webs-interesantes/goto.svg)
+![David](https://img.shields.io/david/carmona44/webs-interesantes.svg)
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/carmona44/webs-interesantes.svg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/carmona44/webs-interesantes.svg)
+![GitHub contributors](https://img.shields.io/github/contributors/carmona44/webs-interesantes.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/carmona44/webs-interesantes.svg)
 
-## Available Scripts
+## AUTORES
+[![GitHub issue author](https://img.shields.io/badge/AUTOR-DANIEL%20CARMONA-brightgreen.svg)](https://github.com/carmona44)
+[![GitHub issue author](https://img.shields.io/badge/AUTOR-SALVADOR%20ZAPATA-brightgreen.svg)](https://github.com/SalvadorZapatacas)
 
-In the project directory, you can run:
+___
 
-### `npm start`
+## INTRODUCCIÓN
+Webs interesantes es una web que recopila páginas webs y/o entradas de blogs que consideramos que pueden ser interesantes o útiles para nosotros o para otras personas ya sea para uso inmediato o para un futuro. Dichas webs están clasificadas por tipos según su contenido.
+*(Ej: ciencia, educación, informática...)*  
+  
+Puedes acceder a través de **[este enlace](https://carmona44.github.io/webs-interesantes/)**.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## TO DO
+Este es un proyecto actualmente en desarrollo y al que aún le queda mucho para ser un producto para todos. Por eso la siguiente lista de *cosas pendientes*:
+- Completar documentos de conducta, licencia y demás temas de *GitHub*
+- Migrar json a BBDD (*MySQL*)
+- Migrar proyecto de *github pages* a servidor propio (*Node.js*)
+- Resolver diversos aspectos de estilo
+- Crear menú lateral para búsquedas filtradas, perfil de usuario y otros
+- Crear imagen corporativa
+- Traducir al inglés
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## LICENCIA
+![GitHub](https://img.shields.io/github/license/carmona44/webs-interesantes.svg)
