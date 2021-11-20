@@ -1,6 +1,19 @@
 {
   "webs": [
     {
+      "id": 69,
+      "nombre": "CoinMarketCap Assets Ranking",
+      "url": "https://companiesmarketcap.com/assets-by-market-cap/",
+      "icono": {
+        "url": "https://assets-global.website-files.com/5f3306add5c511ca4cf17da9/60902767b13b1a166bdbba7b_b541a808-339a-4b11-8e9d-da8b6a409891.jpeg"
+      },
+      "descripcion": "Ranking de criptomonedas, empresas, metales preciosos y ETFs en función de la capitalización de mercado.",
+      "idioma": "EN",
+      "tipo": "criptomonedas"
+    },
+
+
+    {
       "id": 1,
       "nombre": "tutorialspoint",
       "url": "http://www.tutorialspoint.com/",
