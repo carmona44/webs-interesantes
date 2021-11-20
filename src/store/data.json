@@ -1,0 +1,709 @@
+{
+  "webs": [
+    {
+      "id": 69,
+      "nombre": "CoinMarketCap Assets Ranking",
+      "url": "https://companiesmarketcap.com/assets-by-market-cap/",
+      "icono": {
+        "url": "https://assets-global.website-files.com/5f3306add5c511ca4cf17da9/60902767b13b1a166bdbba7b_b541a808-339a-4b11-8e9d-da8b6a409891.jpeg"
+      },
+      "descripcion": "Ranking de criptomonedas, empresas, metales preciosos y ETFs en función de la capitalización de mercado.",
+      "idioma": "EN",
+      "tipo": "criptomonedas"
+    },
+
+
+    {
+      "id": 1,
+      "nombre": "tutorialspoint",
+      "url": "http://www.tutorialspoint.com/",
+      "icono": {
+        "url": "http://www.tutorialspoint.com/favicon.ico"
+      },
+      "descripcion": "Plataforma de cursos relacionados con la informática(programación, diseño, animación 3D, machine learning...) totalmente GRATUITOS.",
+      "idioma": "EN",
+      "tipo": "educacion"
+    },
+    {
+      "id": 2,
+      "nombre": "formacarm",
+      "url": "https://www.formacarm.es/portal/",
+      "icono": {
+        "url": "https://www.formacarm.es/portal/img/favicon.ico"
+      },
+      "descripcion": "Plataforma de e-formación de la Comunidad Autónoma de la Región de Murcia donde se imparten cursos de distintas temáticas y GRATUITOS.",
+      "idioma": "ES",
+      "tipo": "educacion"
+    },
+    {
+      "id": 8,
+      "nombre": "europass",
+      "url": "https://europass.cedefop.europa.eu/es",
+      "icono": {
+        "url": "https://europass.cedefop.europa.eu/sites/all/themes/europass_foundation/favicon.ico"
+      },
+      "descripcion": "Plataforma para personas que quieren trabajar o formarse en Europa. Herramienta muy útil que te ayuda a conseguir los documentos necesarios para dicho fin.",
+      "idioma": "ES",
+      "tipo": "educacion"
+    },
+    {
+      "id": 11,
+      "nombre": "linux from scratch",
+      "url": "http://www.linuxfromscratch.org/",
+      "icono": {
+        "url": "http://www.linuxfromscratch.org/favicon.ico"
+      },
+      "descripcion": "Proyecto que te proporciona paso a paso las instrucciones para customizar tu propio sistema Linux manejando su código fuente.",
+      "idioma": "EN",
+      "tipo": "educacion"
+    },
+    {
+      "id": 13,
+      "nombre": "pluralsight",
+      "url": "https://www.pluralsight.com/",
+      "icono": {
+        "url": "https://www.pluralsight.com/etc/clientlibs/pluralsight/main/images/favicons/favicon-32x32.png"
+      },
+      "descripcion": "Plataforma online de cursos relacionados con la informática y la tecnología.",
+      "idioma": "EN",
+      "tipo": "educacion"
+    },
+    {
+      "id": 14,
+      "nombre": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/",
+      "icono": {
+        "url": "https://s3.amazonaws.com/freecodecamp/favicons/favicon-32x32.png"
+      },
+      "descripcion": "Pequeña plataforma sin ánimo de lucro que ayuda a millones de personas a aprender a programar GRATUITAMENTE.",
+      "idioma": "EN",
+      "tipo": "educacion"
+    },
+    {
+      "id": 15,
+      "nombre": "codecademy",
+      "url": "https://www.codecademy.com/",
+      "icono": {
+        "url": "https://www.codecademy.com/favicon.ico"
+      },
+      "descripcion": "Plataforma online para aprender a programar. GRATUITO.",
+      "idioma": "EN",
+      "tipo": "educacion"
+    },
+    {
+      "id": 19,
+      "nombre": "Google Actívate",
+      "url": "https://www.google.es/landing/activate/home/",
+      "icono": {
+        "url": "https://www.google.es/favicon.ico"
+      },
+      "descripcion": "Plataforma de formación en competencias digitales de Google.",
+      "idioma": "ES",
+      "tipo": "educacion"
+    },
+    {
+      "id": 20,
+      "nombre": "Class central",
+      "url": "https://www.class-central.com/",
+      "icono": {
+        "url": "https://www.class-central.com/favicon.ico"
+      },
+      "descripcion": "Buscador de cursos MOOC de las mejores universidades del mundo.",
+      "idioma": "EN",
+      "tipo": "educacion"
+    },
+    {
+      "id": 24,
+      "nombre": "Nestor Braidot",
+      "url": "https://braidot.com/",
+      "icono": {
+        "url": "https://braidot.com/wp-content/uploads/2018/12/cropped-NB-FAVICON-32x32.png"
+      },
+      "descripcion": "Uno de los especialistas en neurociencia más importantes. Aprende un poco más sobre él, entra en la biblioteca o apuntate a su instituto.",
+      "idioma": "ES",
+      "tipo": "educacion"
+    },
+    {
+      "id": 32,
+      "nombre": "courseroot",
+      "url": "https://courseroot.com/",
+      "icono": {
+        "url": "https://courseroot.com/img/favicon.png"
+      },
+      "descripcion": "La mayor base de datos de tutoriales y cursos online filtrados según su precio, dificultad, calidad de certificado...",
+      "idioma": "EN",
+      "tipo": "educacion"
+    },
+    {
+      "id": 38,
+      "nombre": "CISCO",
+      "url": "https://www.netacad.com/es",
+      "icono": {
+        "url": "http://www.myiconfinder.com/uploads/iconsets/256-256-1dfedd385bb8e3d6686fa7bda30da1e0-Cisco.png"
+      },
+      "descripcion": "Buscador de academias cercanas donde se impartan cursos de IT respaldados por CISCO.",
+      "idioma": "ES",
+      "tipo": "educacion"
+    },
+    {
+      "id": 41,
+      "nombre": "Tutoriales en pdf",
+      "url": "http://tutorialesenpdf.com/",
+      "icono": {
+        "url": "http://tutorialesenpdf.com/favicon.ico"
+      },
+      "descripcion": "Como su propio nombre indica, web donde encontrar tutoriales en español y en formato pdf para poder descargar.",
+      "idioma": "ES",
+      "tipo": "educacion"
+    },
+    {
+      "id": 42,
+      "nombre": "Khan Academy",
+      "url": "https://es.khanacademy.org/",
+      "icono": {
+        "url": "https://es.khanacademy.org/favicon.ico"
+      },
+      "descripcion": "Plataforma online que imparte cursos sobre matemáticas, ciencia, economía y finanzas y computación. GRATUITO.",
+      "idioma": "ES",
+      "tipo": "educacion"
+    },
+    {
+      "id": 46,
+      "nombre": "Dive into deep learning",
+      "url": "http://d2l.ai/",
+      "icono": {
+        "url": "https://d2l.ai/_static/gluon_s2.png"
+      },
+      "descripcion": "Un libro interactivo sobre deep learning que incluye código, matemáticas y debates",
+      "idioma": "EN",
+      "tipo": "educacion"
+    },
+    {
+      "id": 47,
+      "nombre": "80000 hours",
+      "url": "https://80000hours.org/",
+      "icono": {
+        "url": "https://80000hours.org/favicon-144.png"
+      },
+      "descripcion": "¿Quieres ayudar a mejorar el mundo y no sabes que carrera estudiar? Ellos te ayudarán a escoger.",
+      "idioma": "EN",
+      "tipo": "educacion"
+    },
+    {
+      "id": 49,
+      "nombre": "hackr.io",
+      "url": "https://hackr.io/",
+      "icono": {
+        "url": "https://hackr.io/assets/images/code-images/code-favicon-32x32.png"
+      },
+      "descripcion": "Buscador de cursos relacionados con la programación y el diseño.",
+      "idioma": "EN",
+      "tipo": "educacion"
+    },
+    {
+      "id": 54,
+      "nombre": "hack yourself first",
+      "url": "https://hack-yourself-first.com/",
+      "icono": {
+        "url": "https://hack-yourself-first.com/favicon.ico"
+      },
+      "descripcion": "Página web diseñada para seguir un tutorial de hacking. Aprende los problemas de seguridad que hay en la red y a cómo solventarlos.",
+      "idioma": "EN",
+      "tipo": "educacion"
+    },
+    {
+      "id": 60,
+      "nombre": "Coursera",
+      "url": "https://www.coursera.org/",
+      "icono": {
+        "url": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-32x32.png"
+      },
+      "descripcion": "Plataforma de cursos y credenciales online. Únete GRATIS.",
+      "idioma": "ES",
+      "tipo": "educacion"
+    },
+    
+    
+    
+
+
+
+
+    {
+      "id": 3,
+      "nombre": "Piskel",
+      "url": "https://www.piskelapp.com/",
+      "icono": {
+        "url": "https://www.piskelapp.com/static/resources/favicon.png"
+      },
+      "descripcion": "Editor online gratuito para crear sprites animados y pixel art.",
+      "idioma": "EN",
+      "tipo": "informatica"
+    },
+    {
+      "id": 4,
+      "nombre": "elhacker",
+      "url": "https://www.elhacker.net/",
+      "icono": {
+        "url": "https://www.elhacker.net/inclusiones/plantillas/006/favicon.ico"
+      },
+      "descripcion": "Foro en español sobre hacking. Discusiones, debates, foro, war-zone...",
+      "idioma": "ES",
+      "tipo": "informatica"
+    },
+    {
+      "id": 5,
+      "nombre": "CodePen",
+      "url": "https://codepen.io/",
+      "icono": {
+        "url": "https://codepen.io/favicons/favicon-32x32.png"
+      },
+      "descripcion": "Editor online de programación. Comparte con la comunidad tus creaciones, observa y analiza la de los demás.",
+      "idioma": "EN",
+      "tipo": "informatica"
+    },
+    {
+      "id": 6,
+      "nombre": "pixabay",
+      "url": "https://pixabay.com/",
+      "icono": {
+        "url": "https://pixabay.com/favicon-32x32.png"
+      },
+      "descripcion": "La mejor fuente de imágenes y videos gratis. Todas son registradas en el dominio público luego son gratuitas para uso comercial.",
+      "idioma": "ES",
+      "tipo": "informatica"
+    },
+    {
+      "id": 7,
+      "nombre": "virustotal",
+      "url": "https://www.virustotal.com/es/",
+      "icono": {
+        "url": "https://virustotalcloud.appspot.com/static/img/favicon.ico"
+      },
+      "descripcion": "Servicio de escaneo de virus, malware y URL online.",
+      "idioma": "ES",
+      "tipo": "informatica"
+    },
+    {
+      "id": 9,
+      "nombre": "iconspedia",
+      "url": "https://www.iconspedia.com/",
+      "icono": {
+        "url": "https://duin9q2mqqbim.cloudfront.net/common/images/favicon.ico"
+      },
+      "descripcion": "Selección de iconos GRATUITOS para usar en tus páginas webs, apps...",
+      "idioma": "EN",
+      "tipo": "informatica"
+    },
+    {
+      "id": 12,
+      "nombre": "Hacker News",
+      "url": "https://news.ycombinator.com/",
+      "icono": {
+        "url": "https://news.ycombinator.com/favicon.ico"
+      },
+      "descripcion": "Sitio web de noticias que se centra en la informática y el espíritu empresarial.",
+      "idioma": "EN",
+      "tipo": "informatica"
+    },
+    {
+      "id": 17,
+      "nombre": "CodinGame",
+      "url": "https://www.codingame.com/",
+      "icono": {
+        "url": "https://static.codingame.com/assets/favicon_32_32.3e3c075c.png"
+      },
+      "descripcion": "Plataforma en línea para desarrolladores que te permite jugar con la programación con rompecabezas cada vez más difíciles.",
+      "idioma": "EN",
+      "tipo": "informatica"
+    },
+    {
+      "id": 18,
+      "nombre": "bigml",
+      "url": "https://bigml.com/",
+      "icono": {
+        "url": "https://static.bigml.com/static/favicon.ico?v=2"
+      },
+      "descripcion": "Plataforma líder de Machine Learning.",
+      "idioma": "EN",
+      "tipo": "informatica"
+    },
+    {
+      "id": 22,
+      "nombre": "Sejda",
+      "url": "https://www.sejda.com/es",
+      "icono": {
+        "url": "https://www.sejda.com/images/icon_128.png"
+      },
+      "descripcion": "Editor online de archivos en formato PDF.",
+      "idioma": "ES",
+      "tipo": "informatica"
+    },
+    {
+      "id": 27,
+      "nombre": "Ciberseguridad",
+      "url": "https://ciberseguridad.blog/",
+      "icono": {
+        "url": "https://ciberseguridad.blog/favicon.ico"
+      },
+      "descripcion": "Blog de ciberseguridad.",
+      "idioma": "ES",
+      "tipo": "informatica"
+    },
+    {
+      "id": 28,
+      "nombre": "bestofjs",
+      "url": "https://bestofjs.org/",
+      "icono": {
+        "url": "https://bestofjs.org/favicon.ico"
+      },
+      "descripcion": "El lugar donde encontrar los mejores proyectos open-source de JS, HTML y CSS y los frameworks más populares.",
+      "idioma": "EN",
+      "tipo": "informatica"
+    },
+    {
+      "id": 29,
+      "nombre": "Hetzner",
+      "url": "https://www.hetzner.com/",
+      "icono": {
+        "url": "https://www.hetzner.com/themes/hetzner/images/favicons/favicon-32x32.png"
+      },
+      "descripcion": "Cloud, web hosting, servidores dedicados...",
+      "idioma": "EN",
+      "tipo": "informatica"
+    },
+    {
+      "id": 36,
+      "nombre": "Tiobe",
+      "url": "https://www.tiobe.com/tiobe-index/",
+      "icono": {
+        "url": "https://www.tiobe.com/images/tiobe.ico"
+      },
+      "descripcion": "Indicador de la popularidad de los lenguajes de programación.",
+      "idioma": "EN",
+      "tipo": "informatica"
+    },
+    {
+      "id": 37,
+      "nombre": "egghead",
+      "url": "https://egghead.io/",
+      "icono": {
+        "url": "https://egghead.io/favicon.ico?v=2"
+      },
+      "descripcion": "Vídeo cursos para aprender las mejores herramientas y frameworks de JavaScript.",
+      "idioma": "EN",
+      "tipo": "informatica"
+    },
+    {
+      "id": 40,
+      "nombre": "Cults.",
+      "url": "https://cults3d.com/es",
+      "icono": {
+        "url": "https://assets.cults3d.com/assets/favicons/cults-8b86bca460ece165f3132f09fb73eadb48db60a34b7440caf6a8dbea60d43d26.ico"
+      },
+      "descripcion": "Descubre y descarga los mejores modelos 3D para tu impresora 3D.",
+      "idioma": "ES",
+      "tipo": "informatica"
+    },
+    {
+      "id": 43,
+      "nombre": "web.dev",
+      "url": "https://web.dev/",
+      "icono": {
+        "url": "https://www.gstatic.com/devrel-devsite/va3924c39307739d800f82408fea31f63e5aecef014afe52ca8e18e5929f28833/web/images/favicon@2x.png"
+      },
+      "descripcion": "Ayuda a los desarrolladores a aprender y aplicar las capacidades modernas de las webs para sus propios sitios y aplicaciones.",
+      "idioma": "EN",
+      "tipo": "informatica"
+    },
+    {
+      "id": 44,
+      "nombre": "regex101",
+      "url": "https://regex101.com/",
+      "icono": {
+        "url": "https://regex101.com/static/assets/favicon-32x32.png"
+      },
+      "descripcion": "Editor online para probar expresiones regulares.",
+      "idioma": "EN",
+      "tipo": "informatica"
+    },
+    {
+      "id": 45,
+      "nombre": "Kaggle",
+      "url": "https://www.kaggle.com/",
+      "icono": {
+        "url": "https://www.kaggle.com/static/images/favicon.ico"
+      },
+      "descripcion": "Comunidad en línea de Data Science y Machine Learning.",
+      "idioma": "EN",
+      "tipo": "informatica"
+    },
+    {
+      "id": 53,
+      "nombre": "ahrefsblog",
+      "url": "https://ahrefs.com/blog/google-advanced-search-operators/",
+      "icono": {
+        "url": "https://cdn.ahrefs.com/favicon.ico?20190204-000"
+      },
+      "descripcion": "Post muy interesante sobre los operadores avanzados de búsqueda en Google.",
+      "idioma": "EN",
+      "tipo": "informatica"
+    },
+    {
+      "id": 57,
+      "nombre": "Hacker Tools",
+      "url": "https://hacker-tools.github.io/",
+      "icono": {
+        "url": "https://hacker-tools.github.io/favicon-32x32.png"
+      },
+      "descripcion": "Aprende a aprovechar la mayoría de las herramientas que los hackers han usado durante décadas.",
+      "idioma": "EN",
+      "tipo": "informatica"
+    },
+    {
+      "id": 58,
+      "nombre": "POLAR",
+      "url": "https://getpolarized.io/",
+      "icono": {
+        "url": "https://getpolarized.io/assets/logo/favicon.png"
+      },
+      "descripcion": "Potente gestor de documentos que mejora tus lecturas.",
+      "idioma": "EN",
+      "tipo": "informatica"
+    },
+    
+    
+    
+    
+    
+    
+    
+    {
+      "id": 31,
+      "nombre": "Root",
+      "url": "https://root.cern.ch/",
+      "icono": {
+        "url": "https://d35c7d8c.web.cern.ch/sites/d35c7d8c.web.cern.ch/files/favicon6.ico"
+      },
+      "descripcion": "Herramienta de software científico modular. Big data, análisis estadístico...",
+      "idioma": "EN",
+      "tipo": "ciencia"
+    },
+    {
+      "id": 34,
+      "nombre": "FamiLinx",
+      "url": "http://familinx.org/index.html",
+      "icono": {
+        "url": "http://familinx.org/img/familinx.jpg"
+      },
+      "descripcion": "Recurso científico de información genealógica y demográfica de 10 millones de personas de los últimos 500 años.",
+      "idioma": "EN",
+      "tipo": "ciencia"
+    },
+    {
+      "id": 35,
+      "nombre": "DNA Land",
+      "url": "https://dna.land/",
+      "icono": {
+        "url": "https://dna.land/static/splash/img/dna-land/logo-large.png"
+      },
+      "descripcion": "Aprende mas sobre tu ADN y contribuye a una importante búsqueda científica.",
+      "idioma": "EN",
+      "tipo": "ciencia"
+    },
+    {
+      "id": 55,
+      "nombre": "LED Center",
+      "url": "http://led.linear1.org/",
+      "icono": {
+        "url": "http://led.linear1.org/i/closeup.jpg"
+      },
+      "descripcion": "Un buen recurso para la gente interesada en los LEDs.",
+      "idioma": "EN",
+      "tipo": "ciencia"
+    },
+    {
+      "id": 52,
+      "nombre": "Open source radio telescopes",
+      "url": "http://opensourceradiotelescopes.org/",
+      "icono": {
+        "url": "https://i1.wp.com/opensourceradiotelescopes.org/wp-content/uploads/2017/03/cropped-OSRTpic.png?fit=32%2C32"
+      },
+      "descripcion": "Base de datos y centro de colaboración para la construcción de radio telescopios astronómicos a cualquier nivel.",
+      "idioma": "EN",
+      "tipo": "ciencia"
+    },
+    {
+      "id": 59,
+      "nombre": "BrainFacts",
+      "url": "http://www.brainfacts.org/",
+      "icono": {
+        "url": "http://www.brainfacts.org/bf-touch-icon-32x32.png"
+      },
+      "descripcion": "Aprende y explora todo sobre nuestro cerebro.",
+      "idioma": "EN",
+      "tipo": "ciencia"
+    },
+    
+    
+
+
+
+
+    {
+      "id": 21,
+      "nombre": "idealo",
+      "url": "https://www.idealo.es/",
+      "icono": {
+        "url": "https://cdn.idealo.com/storage/ipc/favicon.ico"
+      },
+      "descripcion": "Comparador de precios y ofertas online.",
+      "idioma": "ES",
+      "tipo": "compras"
+    },
+    {
+      "id": 23,
+      "nombre": "Chollometro",
+      "url": "https://www.chollometro.com/",
+      "icono": {
+        "url": "https://www.chollometro.com/favicon.ico"
+      },
+      "descripcion": "Comunidad donde publicar los chollos que vas encontrando o los que encuentran otros. No te pierdas ni una buena oferta.",
+      "idioma": "ES",
+      "tipo": "compras"
+    },
+
+
+
+
+    {
+      "id": 10,
+      "nombre": "pcs",
+      "url": "https://www.procyclingstats.com/",
+      "icono": {
+        "url": "https://www.procyclingstats.com/images/favicons/apple-icon-57x57.png"
+      },
+      "descripcion": "Base de datos sobre ciclismo. Todos los números que tienes que saber.",
+      "idioma": "EN",
+      "tipo": "deportes"
+    },
+    {
+      "id": 33,
+      "nombre": "Toolbox from Strava",
+      "url": "https://www.marcellobrivio.com/projects/strava-toolbox/",
+      "icono": {
+        "url": "https://www.marcellobrivio.com/projects/strava-toolbox/img/favicon-32x32.png?v=5AAJppeRmM"
+      },
+      "descripcion": "Crea una clasificación de distintas categorías con los usuarios de Strava. Compara tu actividad con el resto de usuarios.",
+      "idioma": "EN",
+      "tipo": "deportes"
+    },
+    {
+      "id": 39,
+      "nombre": "Football club Elo",
+      "url": "http://clubelo.com/",
+      "icono": {
+        "url": "http://clubelo.com/favicon.png"
+      },
+      "descripcion": "Estadísticas de fútbol.",
+      "idioma": "EN",
+      "tipo": "deportes"
+    },
+
+
+
+
+    {
+      "id": 16,
+      "nombre": "lmgtfy",
+      "url": "http://es.lmgtfy.com/",
+      "icono": {
+        "url": "http://es.lmgtfy.com/favicon-32x32.png"
+      },
+      "descripcion": "¿Harto de buscar en Google las preguntas que tus amigos te hacen y que ellos mismos tendrían que hacerle al famoso buscador en lugar de a ti? Este es el sitio perfecto para enseñarles cómo se hace.",
+      "idioma": "ES",
+      "tipo": "entretenimiento"
+    },
+    {
+      "id": 25,
+      "nombre": "Classic reload",
+      "url": "https://classicreload.com/",
+      "icono": {
+        "url": "https://classicreload.com/sites/default/files/favicon.ico"
+      },
+      "descripcion": "Juegos online de SEGA, MS-DOS, Amiga...",
+      "idioma": "EN",
+      "tipo": "entretenimiento"
+    },
+    {
+      "id": 26,
+      "nombre": "MuySencillo",
+      "url": "https://www.muysencillo.com/",
+      "icono": {
+        "url": "https://www.muysencillo.com/wp-content/uploads/2015/05/favicon-muysencillo.png"
+      },
+      "descripcion": "Sitio web que te muestra distintos 'Life kacks'.",
+      "idioma": "ES",
+      "tipo": "entretenimiento"
+    },
+    {
+      "id": 48,
+      "nombre": "Gemioli",
+      "url": "https://gemioli.com/",
+      "icono": {
+        "url": "https://gemioli.com/favicon-32x32.png"
+      },
+      "descripcion": "Desarrollador de videojuegos web. Juega con ellos en el navegador.",
+      "idioma": "EN",
+      "tipo": "entretenimiento"
+    },
+    {
+      "id": 50,
+      "nombre": "Meetup",
+      "url": "https://www.meetup.com/es-ES/",
+      "icono": {
+        "url": "https://www.meetup.com/mu_static/es-ES/favicon.a6878039.ico"
+      },
+      "descripcion": "Queda con gente cercana a ti y con tus mismos gustos.",
+      "idioma": "ES",
+      "tipo": "entretenimiento"
+    },
+    {
+      "id": 51,
+      "nombre": "archive",
+      "url": "https://archive.org/",
+      "icono": {
+        "url": "https://archive.org/images/glogo.jpg"
+      },
+      "descripcion": "Biblioteca sin ánimo de lucro de millones de libros, películas, software, música, webs...",
+      "idioma": "EN",
+      "tipo": "entretenimiento"
+    },
+    
+    
+    
+    
+    {
+      "id": 30,
+      "nombre": "Novatos trading club",
+      "url": "https://www.novatostradingclub.com/",
+      "icono": {
+        "url": "https://www.novatostradingclub.com/wp-content/uploads/2016/08/xfavicon.png.pagespeed.ic.NzduhdcTzn.webp"
+      },
+      "descripcion": "Comunidad en la que aprender sobre trading e inversiones.",
+      "idioma": "ES",
+      "tipo": "economia"
+    },
+    {
+      "id": 56,
+      "nombre": "My Brand New Logo",
+      "url": "https://mybrandnewlogo.com/",
+      "icono": {
+        "url": "https://assets.mybrandnewlogo.com/images/favicon-32x32.png"
+      },
+      "descripcion": "Crea tu logo fácilmente a partir de unos parámetros iniciales.",
+      "idioma": "EN",
+      "tipo": "economia"
+    }
+  ]
+}
