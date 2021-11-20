@@ -33,6 +33,8 @@ class App extends Component {
         <SearchAppBar onchange={this.props.setSearch}/>
         { body } 
         <footer className="pie-pagina">Made on Earth by Human.</footer>
+        <a href="https://www.compragamers.com/novedades">Compragamers novedades</a>
+        <a href="https://www.compragamers.com/confort/48-secretlab-titan-evo.html">Compragamers secretlab</a>
       </div>
     );
   }
