@@ -11,6 +11,17 @@
       "idioma": "EN",
       "tipo": "criptomonedas"
     },
+    {
+      "id": 70,
+      "nombre": "Crypto Fear & Greed Index",
+      "url": "https://alternative.me/crypto/fear-and-greed-index/",
+      "icono": {
+        "url": "https://alternative.me/crypto/fear-and-greed-index.png"
+      },
+      "descripcion": "Índice de miedo y codicia en el entorno Bitcoin",
+      "idioma": "EN",
+      "tipo": "criptomonedas"
+    },
 
 
     {
