@@ -22,6 +22,50 @@
       "idioma": "EN",
       "tipo": "criptomonedas"
     },
+    {
+      "id": 71,
+      "nombre": "Infinite market cap",
+      "url": "https://8marketcap.com/",
+      "icono": {
+        "url": "https://8marketcap.com/8marketcap.png"
+      },
+      "descripcion": "Ranking de capitalizaciones de mercado y progreso de los posibles flippenings",
+      "idioma": "EN",
+      "tipo": "criptomonedas"
+    },
+    {
+      "id": 72,
+      "nombre": "Altcoin season index",
+      "url": "https://www.blockchaincenter.net/altcoin-season-index/",
+      "icono": {
+        "url": "https://www.blockchaincenter.net/favicon.ico"
+      },
+      "descripcion": "Índice que indica si estamos en época de Altcoins o de Bitcoin",
+      "idioma": "EN",
+      "tipo": "criptomonedas"
+    },
+    {
+      "id": 73,
+      "nombre": "Bitcoin rainbow chart",
+      "url": "https://www.blockchaincenter.net/bitcoin-rainbow-chart/",
+      "icono": {
+        "url": "https://www.blockchaincenter.net/favicon.ico"
+      },
+      "descripcion": "Arcoiris de predicción del precio de Bitcoin a largo plazo",
+      "idioma": "EN",
+      "tipo": "criptomonedas"
+    },
+    {
+      "id": 74,
+      "nombre": "The coin perspective",
+      "url": "https://thecoinperspective.com/",
+      "icono": {
+        "url": "https://thecoinperspective.com/images/TCP-Logo-Light.svg"
+      },
+      "descripcion": "Poner una criptomoneda/token en perspectiva y comparar con el market cap de otra",
+      "idioma": "EN",
+      "tipo": "criptomonedas"
+    },
 
 
     {
