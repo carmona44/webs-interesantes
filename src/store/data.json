@@ -66,6 +66,17 @@
       "idioma": "EN",
       "tipo": "criptomonedas"
     },
+    {
+      "id": 75,
+      "nombre": "Gráfica de inflación $USD",
+      "url": "https://inflationchart.com/spx-in-m3/?show_adjuster=1",
+      "icono": {
+        "url": "https://inflationchart.com/screenshot.php?url=%2Fspx-in-m3%2F%3Fshow_adjuster%3D1&cachebuster=2021-11"
+      },
+      "descripcion": "Muestra el grado de inflación con el paso de los años con respecto a otras medidas como BTC, el índice BigMac...",
+      "idioma": "EN",
+      "tipo": "criptomonedas"
+    },
 
 
     {
@@ -283,7 +294,17 @@
 
 
 
-
+    {
+      "id": 76,
+      "nombre": "Buscar trabajo en remoto",
+      "url": "https://remoteok.com/",
+      "icono": {
+        "url": "https://remoteok.com/assets/favicon-32x32.png?1634054012"
+      },
+      "descripcion": "Si eres programador o perteneces al entorno IT y buscas un trabajo en remoto aquí encontrarás un montón de ofertas interesantes sobre todo en EEUU",
+      "idioma": "EN",
+      "tipo": "informatica"
+    },
     {
       "id": 3,
       "nombre": "Piskel",
