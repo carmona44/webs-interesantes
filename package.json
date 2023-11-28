@@ -5,11 +5,11 @@
   "homepage": "https://carmona44.github.io/webs-interesantes",
   "dependencies": {
     "@material-ui/core": "^3.9.0",
-    "@material-ui/icons": "^3.0.2",
+    "@material-ui/icons": "^4.0.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-redux": "^6.0.0",
-    "react-scripts": "^4.0.0",
+    "react-scripts": "^5.0.0",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0"
